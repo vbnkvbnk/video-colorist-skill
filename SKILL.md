@@ -1,6 +1,6 @@
 ---
 name: video-colorist
-description: Local video inspection, contact sheets, grading, clip assembly, BGM, and director-style editing guidance.
+description: Local video inspection, contact sheets, grading, clip assembly, BGM, Chinese director references, and Oscar Best Director style guidance.
 metadata:
   short-description: Video editing and color grading helper
 ---
@@ -52,6 +52,21 @@ Common Chinese director directions:
 - 顾长卫/摄影诗方向: soft natural light, lyrical faces/landscape, gentle lateral movement, muted warm-cool palette; use when footage is everyday but emotionally tender.
 
 运镜判断关键行：先顺着素材本来的运动走，不为了像导演而强行加推拉摇移。
+
+## Oscar Best Director Style Bank
+
+When the user asks for `奥斯卡导演`, `Oscar director`, `Best Director`, `Academy Award`, or an international mainstream film direction, read `references/oscar-best-directors.md`.
+
+Use that reference as a style bank, not a winner trivia list:
+
+1. Match footage first: subject, movement, light, texture, and emotional temperature.
+2. Pick 2-3 Oscar directions that actually fit, then choose one primary direction.
+3. Translate the chosen direction into editing rhythm, color, contrast, texture, sound, and camera treatment.
+4. If the user asks for "近30年", use the reference's latest verified 30-year span; verify newer ceremonies before extending it.
+5. Verify the latest winner from a reliable source before claiming the list is current.
+6. Do not promise exact imitation of a living artist; describe an adapted cinematic direction.
+
+关键行：奥斯卡方向只作为审美坐标，最终剪辑必须服从素材本身。
 
 
 ## Jia Zhangke Trigger
