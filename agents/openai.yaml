@@ -1,4 +1,4 @@
 interface:
   display_name: "Video Colorist"
-  short_description: "Analyze and color grade video with FFmpeg"
-  default_prompt: "Use $video-colorist to analyze this video and export a polished color grade."
+  short_description: "Analyze footage, recommend director style, edit, and color grade"
+  default_prompt: "Use $video-colorist to inspect these clips, recommend a fitting director style, then make editing/color suggestions."
