@@ -39,7 +39,44 @@ PRESETS = {
         "unsharp=5:5:0.25:3:3:0.08,"
         "noise=alls=1.8:allf=t+u"
     ),
-    "warm-film": (
+    "realist-muted": (
+        "hqdn3d=0.9:0.7:2.0:1.6,"
+        "eq=contrast=1.04:brightness=-0.004:saturation=0.86,"
+        "colorbalance=rs=-0.025:gs=0.005:bs=0.025:rm=-0.015:gm=0.002:bm=0.018:rh=-0.01:gh=0.005:bh=0.005,"
+        "curves=all='0/0.02 0.22/0.19 0.60/0.58 1/0.96',"
+        "noise=alls=1.0:allf=t+u,"
+        "unsharp=5:5:0.18:3:3:0.05"
+    ),
+    "humid-dream": (
+        "hqdn3d=1.0:0.8:2.2:1.8,"
+        "eq=contrast=1.03:brightness=0.008:saturation=0.92,"
+        "colorbalance=rs=-0.045:gs=-0.008:bs=0.06:rm=-0.025:gm=0.004:bm=0.035:rh=-0.015:gh=0.003:bh=0.018,"
+        "curves=all='0/0.035 0.24/0.22 0.62/0.62 1/0.96':blue='0/0.04 0.55/0.58 1/0.99',"
+        "noise=alls=1.2:allf=t+u,"
+        "unsharp=5:5:0.16:3:3:0.04"
+    ),
+    "night-neon": (
+        "hqdn3d=1.1:0.9:2.8:2.2,"
+        "eq=contrast=1.12:brightness=-0.018:saturation=1.08,"
+        "colorbalance=rs=-0.06:gs=-0.015:bs=0.08:rm=-0.025:gm=0.002:bm=0.035:rh=0.015:gh=0.000:bh=-0.015,"
+        "curves=all='0/0 0.18/0.10 0.55/0.56 1/0.94':blue='0/0.03 0.50/0.56 1/1',"
+        "unsharp=5:5:0.28:3:3:0.08"
+    ),
+    "wkw-neon": (
+        "hqdn3d=0.9:0.7:2.0:1.6,"
+        "eq=contrast=1.10:brightness=-0.01:saturation=1.16,"
+        "colorbalance=rs=0.025:gs=-0.01:bs=0.035:rm=0.035:gm=-0.005:bm=0.02:rh=0.05:gh=0.005:bh=-0.04,"
+        "curves=all='0/0 0.16/0.09 0.52/0.56 1/0.95':red='0/0.02 0.50/0.54 1/1':blue='0/0.035 0.55/0.58 1/0.94',"
+        "noise=alls=1.5:allf=t+u,"
+        "unsharp=5:5:0.22:3:3:0.06"
+    ),
+    "clean-commercial": (
+        "hqdn3d=0.6:0.45:1.4:1.1,"
+        "eq=contrast=1.08:brightness=0.000:saturation=1.04,"
+        "colorbalance=rs=-0.01:gs=0.00:bs=0.012:rm=0.00:gm=0.00:bm=0.006:rh=0.006:gh=0.002:bh=-0.006,"
+        "curves=preset=medium_contrast,"
+        "unsharp=5:5:0.32:3:3:0.08"
+    ),    "warm-film": (
         "hqdn3d=1.0:0.8:2.4:2.0,"
         "eq=contrast=1.15:brightness=-0.015:saturation=1.10,"
         "colorbalance=rs=-0.015:gs=0.04:bs=-0.035:rm=0.04:gm=0.015:bm=-0.025:rh=0.08:gh=0.025:bh=-0.08,"
